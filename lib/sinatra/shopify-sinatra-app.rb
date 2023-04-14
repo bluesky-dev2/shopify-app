@@ -263,6 +263,7 @@ module Sinatra
   register Shopify
 end
 
+#what is it?
 class Shop < ActiveRecord::Base
   def self.secret
     @secret ||= ENV['SECRET']
